@@ -1,0 +1,102 @@
+
+ 
+
+ html {font-family: sans-serif;
+
+
+ }
+
+body {display: flex;
+  margin: auto;
+    width: 1500px;
+  flex-flow: column wrap;
+  justify-content: space-around;}
+  
+
+.caixa {
+height: 70px;
+width: 100%;
+border: 1px solid black;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-around;
+
+
+}
+.a {
+  height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 60%;
+    background: grey;
+    color: yellow;}
+
+#aa:hover {
+        
+font-size: 30px; 
+     
+         
+    }
+    
+.b :hover {color: blueviolet;}
+
+.b {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 40%;
+  background: rgb(255, 255, 0);
+  color: black;
+
+} 
+
+.c {
+  margin-top: 100%;
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  align-self: baseline;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background: grey;
+}
+.z {
+  display: flex;
+  line-height: -1.5;
+  margin: 10px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+padding: 50px;}
+
+  figcaption {align-self: baseline;}
+
+@media (max-width: 700px) {
+    body {
+      background-color: #d3d3d3;
+    }
+    
+    .caixa {
+      color: orange;
+    }
+    
+     .container {
+      flex-direction:column;
+      justify-content: center;
+    
+    }
+   
+}
+
+
+ 
